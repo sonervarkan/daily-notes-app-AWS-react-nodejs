@@ -82,13 +82,14 @@ Vite (for React frontend)
 
 ### Backend Setup
 1️⃣ Install Dependencies
+````
 cd backend
 npm install
-
+````
 2️⃣ Environment Variables
 
 Create .env inside /backend:
-
+````
 AWS_ACCESS_KEY=YOUR_ACCESS_KEY
 AWS_SECRET_KEY=YOUR_SECRET_KEY
 S3_BUCKET=your-bucket-name
@@ -97,10 +98,11 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=notes_app
-
+````
 3️⃣ Start Backend
+````
 npm start
-
+````
 
 Backend runs at:
 
@@ -108,9 +110,10 @@ http://localhost:8080
 
 ### Frontend Setup (React + Vite)
 1️⃣ Install Dependencies
+````
 cd frontend
 npm install
-
+````
 2️⃣ Environment Variables
 
 Create .env inside /frontend:
