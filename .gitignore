@@ -1,0 +1,70 @@
+# -------------------
+# Node.js
+# -------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+dist/
+build/
+
+# -------------------
+# ASP.NET Core / Visual Studio
+# -------------------
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+*.log
+*.vsix
+*.dbmdl
+
+# -------------------
+# Laravel / PHP
+# -------------------
+vendor/
+.env
+.phpunit.result.cache
+/storage/*.key
+/storage/*.log
+/node_modules/
+npm-debug.log*
+
+# -------------------
+# Django / Python
+# -------------------
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+*.log
+.env
+db.sqlite3
+/media/
+*.pot
+*.py[cod]
+*.swp
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+__pypackages__/
+*.egg-info/
+dist/
+build/
+
+# -------------------
+# Common OS / IDE
+# -------------------
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace

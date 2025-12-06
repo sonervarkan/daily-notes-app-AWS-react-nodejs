@@ -1,0 +1,110 @@
+body{
+  background-color: blueviolet;
+}
+
+#root {
+  position: absolute;
+  width:100%;
+  height:100%;
+}
+
+.login, .register, .notes{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: absolute;
+top:30%;
+left:50%;
+transform: translate(-50%,-50%);
+width: 50%;
+padding-top: 80px;
+}
+
+.nav{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: aquamarine;
+  justify-content: space-between;
+  position: absolute;
+  top:0%;
+  width:100%;
+}
+
+.menu{
+  display: flex;
+  gap: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width:50%;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: rgb(21, 7, 77);
+  width: 60px;
+  height:40px;
+}
+
+li{
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+ gap: 10px;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: rgb(46, 41, 32);
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
